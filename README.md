@@ -8,7 +8,7 @@
 
 🎯 يمكنك تجربة اللعبة مباشرة من خلال الرابط التالي:
 
-👈 [عرض اللعبة على GitHub Pages](https://alostoura-official.github.io/Alostoura-Games/)
+👈 [يمكنك عرض اللعبة من هنا](https://alostoura-official.github.io/Alostoura-Games/)
 
 ---
 
