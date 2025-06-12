@@ -7,41 +7,41 @@
 </head>
 <body>
 	
-	        <div id = "game">
-	        <div id = "menu">
-	        <div id = "rules-btn" onclick = "ShowRules();">مساعدة</div>
-	        </div>
-	        <div id = "level"></div>
-	        <div id = "rules-page">
-		<div id = "rules">
-		<div id="rules-heading">طريقة اللعب</div>
-                <div id="rules-text">
-                <span style="color: red !important;">تُلعب اللعبة على شبكة</span>
-                <span style="color: blue !important;">مكوّنة من مربعات</span>
-                <span style="color: green !important;">ناتجة عن تقاطع خطوط</span>
-                <span style="color: orange !important;">أفقية وعمودية.</span><br><br>
+        <div id = "game">
+        <div id = "menu">
+        <div id = "rules-btn" onclick = "ShowRules();">مساعدة</div>
+        </div>
+        <div id = "level"></div>
+        <div id = "rules-page">
+        <div id = "rules">
+        <div id="rules-heading">طريقة اللعب</div>
+        <div id="rules-text">
+        <span style="color: red !important;">تُلعب اللعبة على شبكة</span>
+        <span style="color: blue !important;">مكوّنة من مربعات</span>
+        <span style="color: green !important;">ناتجة عن تقاطع خطوط</span>
+        <span style="color: orange !important;">أفقية وعمودية.</span><br><br>
 
-                <span style="color: purple !important;">يقوم كل لاعب بدوره</span>
-                <span style="color: teal !important;">بوضع رمز (X أو O)</span>
-                <span style="color: brown !important;">داخل أحد المربعات</span>
-                <span style="color: crimson !important;">الفارغة.</span><br><br>
+        <span style="color: purple !important;">يقوم كل لاعب بدوره</span>
+        <span style="color: teal !important;">بوضع رمز (X أو O)</span>
+        <span style="color: brown !important;">داخل أحد المربعات</span>
+        <span style="color: crimson !important;">الفارغة.</span><br><br>
 
-                <span style="color: darkblue !important;">يبدأ اللاعب الذي يستخدم</span>
-                <span style="color: seagreen !important;">الرمز X أولاً.</span><br><br>
+        <span style="color: darkblue !important;">يبدأ اللاعب الذي يستخدم</span>
+        <span style="color: seagreen !important;">الرمز X أولاً.</span><br><br>
 
-                <span style="color: goldenrod !important;">الهدف هو أن يكون</span>
-                <span style="color: tomato !important;">أحد اللاعبين أول من</span>
-                <span style="color: darkmagenta !important;">يُشكّل صفًا من ثلاثة</span>
-                <span style="color: dodgerblue !important;">رموز متطابقة.</span><br><br>
+        <span style="color: goldenrod !important;">الهدف هو أن يكون</span>
+        <span style="color: tomato !important;">أحد اللاعبين أول من</span>
+        <span style="color: darkmagenta !important;">يُشكّل صفًا من ثلاثة</span>
+        <span style="color: dodgerblue !important;">رموز متطابقة.</span><br><br>
 
-                <span style="color: darkgreen !important;">سواءً بشكل أفقي</span>
-                <span style="color: salmon !important;">أو عمودي أو قطري.</span><br><br>
+        <span style="color: darkgreen !important;">سواءً بشكل أفقي</span>
+        <span style="color: salmon !important;">أو عمودي أو قطري.</span><br><br>
 
-                <span style="color: navy !important;">أول من يحقق ذلك</span>
-                <span style="color: darkred !important;">يكون هو الفائز.</span>
-                </div>
-                <a href="https://github.com/Alostoura-Official">اتصل بالمطور</a>
-                <div id="back" onclick="HideRules();">فهمت هذا</div>
+        <span style="color: navy !important;">أول من يحقق ذلك</span>
+        <span style="color: darkred !important;">يكون هو الفائز.</span>
+        </div>
+        <a href="https://github.com/Alostoura-Official">اتصل بالمطور</a>
+        <div id="back" onclick="HideRules();">فهمت هذا</div>
 		</div>
 		</div>
 		</div>
@@ -67,61 +67,61 @@
         <input type="radio" name="cell-8" id="cell-8-o" />
 
         <div id="board" class="center">
-            <div class="tile" id="tile-0">
-                <label for="cell-0-x"></label>
-                <label for="cell-0-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-1">
-                <label for="cell-1-x"></label>
-                <label for="cell-1-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-2">
-                <label for="cell-2-x"></label>
-                <label for="cell-2-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-3">
-                <label for="cell-3-x"></label>
-                <label for="cell-3-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-4">
-                <label for="cell-4-x"></label>
-                <label for="cell-4-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-5">
-                <label for="cell-5-x"></label>
-                <label for="cell-5-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-6">
-                <label for="cell-6-x"></label>
-                <label for="cell-6-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-7">
-                <label for="cell-7-x"></label>
-                <label for="cell-7-o"></label>
-                <div></div>
-            </div>
-            <div class="tile" id="tile-8">
-                <label for="cell-8-x"></label>
-                <label for="cell-8-o"></label>
-                <div></div>
-            </div>
+        <div class="tile" id="tile-0">
+        <label for="cell-0-x"></label>
+        <label for="cell-0-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-1">
+        <label for="cell-1-x"></label>
+        <label for="cell-1-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-2">
+        <label for="cell-2-x"></label>
+        <label for="cell-2-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-3">
+        <label for="cell-3-x"></label>
+        <label for="cell-3-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-4">
+        <label for="cell-4-x"></label>
+        <label for="cell-4-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-5">
+        <label for="cell-5-x"></label>
+        <label for="cell-5-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-6">
+        <label for="cell-6-x"></label>
+        <label for="cell-6-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-7">
+        <label for="cell-7-x"></label>
+        <label for="cell-7-o"></label>
+        <div></div>
+        </div>
+        <div class="tile" id="tile-8">
+        <label for="cell-8-x"></label>
+        <label for="cell-8-o"></label>
+        <div></div>
+        </div>
         </div>
         <div id="end">
-            <div id="message" class="center">
-                <div>
-                    <input type="reset" for="tictactoe" value="إعادة المحاولة" />
-                </div>
-            </div>
+        <div id="message" class="center">
+        <div>
+        <input type="reset" for="tictactoe" value="إعادة المحاولة" />
         </div>
-    </form>
+        </div>
+        </div>
+        </form>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
