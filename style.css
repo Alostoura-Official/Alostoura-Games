@@ -67,18 +67,18 @@ body {
     border-radius: 20px;
 }
 
-.lvl span{
+.lvl span {
     transform: rotate(-10deg);
-    font-size:14px;
-    posistion:absolute;
+    font-size: 14px;
+    position: absolute;
     background: #990000;
-    padding:4px;
-    float:right;
-    margin-right:40px;
-    line-height:29px;
-    margin-top:15px;
-    width:80px;
-    border-radius:30px;
+    padding: 4px;
+    float: right;
+    margin-right: 40px;
+    line-height: 29px;
+    margin-top: 15px;
+    width: 80px;
+    border-radius: 30px;
 }
 
 #level {
